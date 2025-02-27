@@ -17,7 +17,7 @@ const Footer=()=>{
         <div className=" text-2xl md-mx:text-xl text-center text-textColor items-center    ">
           <div className="flex">
             <a
-              href="mailto:chandrabhan.work@gmail.com"
+              href="mailto: talhaabbas058@gmail.com"
               className="font-mono  tracking-wide hover:text-primaryColor hover:-translate-x-1 transition transform duration-300 ease-in-out"
             >
               talhaabbas058@gmail.com
