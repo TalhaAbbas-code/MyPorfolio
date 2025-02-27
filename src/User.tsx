@@ -11,8 +11,8 @@ const ProjectInfo = [
   {
     title: "Full Stack Social Media App",
     desc: "Build a dynamic full stack social media application using the MERN stack, enabling users to connect, share, and communicate in real-time. The application features robust functionalities, including the ability for users to create posts, view and like posts from others, and manage his profile. A key highlight is the real-time chat module,implemented with Socket.io, allowing users to chat instantly. The application ensures secure user authentication through JWT and leverages React Redux for efficient global state management.",
-    image: "Ekart.png",
-    live: true,
+    image: "SM.png",
+    live: false,
     technologies: ["React", "Socket.io", "Redux", "Tailwind", "MongoDB", "JWT"],
     link: "",
     github:
