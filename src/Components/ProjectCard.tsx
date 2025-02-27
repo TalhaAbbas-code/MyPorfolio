@@ -11,7 +11,7 @@ const ProjectCard = (props: any) => {
         xs:"xs", sm:"sm", md:"md"
     });
     const getImagePath = (imageName: string) => {
-      return require(`../assets/${imageName}`); // Adjust path as needed
+      return require(`../assets/${imageName}`); 
     };
     return (
       <div
@@ -29,7 +29,7 @@ const ProjectCard = (props: any) => {
         >
           <Card.Section className="p-3">
             <Image
-              className="!rounded-xl !shadow-[0_0_5px_0_#64FFDA]"
+              className="!rounded-xl !shadow-[0_0_5px_0_#64FFDA] min-h-[290px]"
               src={getImagePath(props.image)}
               alt={props.image}
             />
