@@ -115,13 +115,10 @@ const ExperienceInfo = [
     date: "jan 2024 - Jun 2024",
     desc: " As the Team Lead of our Final Year Project, I managed the entire development process, ensuring smooth execution. Our team worked at BICON, NUML, under the guidance of our FYP Supervisor and BICON Incharge. I coordinated tasks, facilitated collaboration, and addressed technical challenges while keeping stakeholders updated. Additionally, I oversaw technical development, ensured high-quality implementation, and managed project documentation.",
     skills: [
-      "Java",
-      "MySQL",
-      "Hibernate",
-      "Selenium",
-      "Jenkins",
-      "JIRA",
-      "Automation Testing",
+      "Flutter",
+      "MongoDB",
+      "Firebase",
+      
     ],
   },
 ];
