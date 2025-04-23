@@ -28,6 +28,37 @@ const ProjectInfo = [
     github: "https://github.com/Code-Mars/Facebook-Clone",
   },
   {
+    title: "Dan E-commerce Store",
+    desc: "This is a dynamic platform where users can participate as suppliers or traders to buy and sell products. Suppliers list their products for sale, and other users can place bids, allowing them to compete for the items. Users can view detailed bid information, such as the highest bid, quantity requested, and more. Additionally, the application features a real-time chat module, enabling seamless communication between users, powered by Socketio,The platform utilizes Tailwind CSS for modern, responsive styling.The application is fully responsive ensuring a sleek and user-friendly interface. Axios handles efficient API calls for smooth data fetching, while React Hook Form is employed to manage and validate form data. React OTP Component is integrated to handle OTP for secure user verification. To enhance security and maintain authenticated sessions, interceptors are used to store and send authorization tokens with every request.",
+    image: "Dan.png",
+    live: true,
+    technologies: [
+      "React",
+      "Axios",
+      "Socket.io",
+      "Tailwind",
+      "Context API",
+      "React Hooks",
+    ],
+    link: "https://dan-store-teal.vercel.app/",
+    github: "https://github.com/TalhaAbbas-code/Dan-Store",
+  },
+  {
+    title: "TrySwitch-Landing Page",
+    desc: "TrySwitch is a modern and fully responsive landing page developed using Next.js and TypeScript. It is designed to provide a smooth and seamless user experience across all device types. The project features a clean and sleek user interface, enhanced with interactive elements and subtle animations that bring the design to life.It is built on a strong technology stack that includes Next.js and TypeScript, ensuring both performance and type safety throughout the development process. For UI components, the project uses ShadCN UI, which offers accessible and reusable building blocks. To enhance user interaction, GSAP (GreenSock Animation Platform) is integrated, enabling smooth scroll-based animations that contribute to an engaging experience.",
+    image: "TrySwitch.png",
+    live: true,
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "GSAP",
+      "Shadcn UI",
+      "Tailwind CSS",
+    ],
+    link: "https://try-switch-landing-page-topaz.vercel.app/",
+    github: "https://github.com/TalhaAbbas-code/TrySwitch-Landing-Page",
+  },
+  {
     title: "E-Commerce",
     desc: "I developed a basic e-commerce UI using Tailwind CSS, featuring a product slider, category display, and a cart section. The project showcases a clean and modern design, focusing on usability and responsiveness. It includes basic routing functionality for simulating an online shopping experience. Static data is used to display products and categories, providing an interactive feel without the need for a backend. This project enhanced my ability to build functional and visually appealing e-commerce layouts with Tailwind CSS.",
     image: "Ecommerce.png",
@@ -70,7 +101,7 @@ const ProjectInfo = [
 const SkillInfo = [
     {
         title: "Frontend",
-        skills: ["HTML", "CSS", , "JavaScript", "React JS", , "Redux", "Tailwind CSS",  "Material UI", "Bootstrap"
+        skills: ["HTML", "CSS", , "JavaScript", "React JS","Next JS" , "Redux", "Tailwind CSS",  "Material UI", "Bootstrap"
         ]
     },
     {
